@@ -1,5 +1,5 @@
 <?php
-require 'database.php';
+require 'database_class.php';
 $database = new DataBase("localhost", "root", "yourpassword", "yourdatabase");
 
 # Example for select array with ID:
