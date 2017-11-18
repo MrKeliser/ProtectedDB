@@ -4,7 +4,7 @@ $database = new DataBase("localhost", "root", "yourpassword", "yourdatabase");
 
 # Example for select array with ID:
 $id = 1;
-$dat### a = $database->select("SELECT * FROM `table` WHERE `id` = {?}", [$id]);
+$data = $database->select("SELECT * FROM `table` WHERE `id` = {?}", [$id]);
 
 # Example for select row with login:
 $login = "MrKeliser";
